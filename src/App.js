@@ -6,7 +6,7 @@ import LoadingBar from 'react-top-loading-bar'
 const App =()=> {
   // apiKey=process.env.REACT_APP_NEWS_API
   const [progress, setProgress] = useState(0)
-  const pageSize=5;
+  const pageSize=12;
     // this.pageSize = 15 // use variable outside the return tag and use this word to set the class
     return (
       <BrowserRouter>
